@@ -1,17 +1,6 @@
-from pprint import pprint
-import json
-import sys
 import boto3
 import code.keys
 from code.keys import ctx as ctx_keys
-
-
-# class Mapping:
-#     def __init__(self, target, invocation, category, file):
-#         self.target = target
-#         self.invocation = invocation
-#         self.category = category
-#         self.file = file
 
 items_to_write = []
 filename = code.keys.__file__.removeprefix('/Users/austin/Code/talon/')
