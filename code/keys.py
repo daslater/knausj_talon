@@ -3,12 +3,12 @@ from typing import Set
 from stubs.talon import Module, Context, actions, app
 import sys
 
-default_alphabet = "air bat caterpillar drum each fine gust harp sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip".split(
+default_alphabet = "air bat catastrophe drum each fine gust harpoon sit jury crunch look made near odd pit quench red sun trap urge vest whale plex yank zip".split(
     " "
 )
 letters_string = "abcdefghijklmnopqrstuvwxyz"
 
-default_digits = "zero one two three four five six seven eight nine".split(" ")
+default_digits = "zero one two three four five sex seven eight nine".split(" ")
 numbers = [str(i) for i in range(10)]
 default_f_digits = "one two three four five six seven eight nine ten eleven twelve".split(
     " "
@@ -113,7 +113,7 @@ def letters(m) -> str:
 ctx = Context()
 modifier_keys = {
     # If you find 'alt' is often misrecognized, try using 'alter'.
-    "alt": "alt",  #'alter': 'alt',
+    "alter": "alt",  #'alter': 'alt',
     "control": "ctrl",  #'troll':   'ctrl',
     "shift": "shift",  #'sky':     'shift',
     "super": "super",
@@ -138,7 +138,7 @@ punctuation_words = {
     "period": ".",
     "full stop": ".",
     "semicolon": ";",
-    "colon": ":",
+    "colonoscopy": ":",
     "forward slash": "/",
     "question mark": "?",
     "exclamation mark": "!",
@@ -156,7 +156,7 @@ punctuation_words = {
     "pound sign": "£",
 }
 symbol_key_words = {
-    "dot": ".",
+    "doubt": ".",
     "point": ".",
     "quote": "'",
     "apostrophe": "'",
